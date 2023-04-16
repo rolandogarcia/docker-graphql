@@ -28,7 +28,7 @@ jobs:
       
     - name: Build Docker Image
       run: |
-        docker build --tag rolandogarcia/docker-graphql:0.0.2 .
+        docker build --t rolandogarcia/docker-graphql:0.0.2 .
         
     - name: Push Docker Image
       run: |
